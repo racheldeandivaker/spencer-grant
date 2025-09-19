@@ -1,0 +1,100 @@
+Perfect — thanks for sharing the optimization framework. I’ve woven **optimization strategies using student demographic data** into your **Introduction → Purpose of Study** section, so it reads as a natural extension of your design (LLM-driven agent-based modeling + optimization). Here’s the integrated draft:
+
+---
+
+# Introduction
+
+### Benefits of Pursuing a STEM Higher Education
+
+Pursuing a STEM-related (Science, Technology, Engineering, Mathematics) degree offers college graduates significant financial benefits and career advancement opportunities. A recent NCSES report (2023) shows that graduates with at least a bachelor's degree in a STEM discipline have considerably higher salaries, with STEM workers having a \$20,000 higher median salary than those in non-STEM careers (NSF, 2022; NCSES, 2023). For example, according to the U.S. Bureau of Labor Statistics (2023), engineering fields stand out as offering some of the highest salaries and fastest job growth for recent college graduates. These fields promote critical thinking to solve complex problems through strong analytical skills and innovation, making recent graduates competitive on the job market (NSB, 2024). Given the financial benefits and career growth opportunities available to STEM workers, students entering STEM fields have promising potential for substantial earnings and upward mobility.
+
+### Lack of Diversity in STEM Fields
+
+Despite these clear benefits, certain groups remain underrepresented in STEM fields. Equitable access to promising career opportunities is central to the mission of higher education, yet gaps in representation persist, particularly among underrepresented populations such as racially minoritized groups, women, first-generation students, and those from low-income backgrounds (Fry, Kennedy, & Funk, 2021; Graham et al., 2013; Hill et al., 2010; Oyelaran, 2023). While women earn nearly half of all bachelor’s degrees, they represent only one-third of degrees in many STEM fields (NCSES, 2021). Salary disparities also exist, with women and racially underrepresented students consistently earning less than majority groups.
+
+First-generation and low-income students face additional barriers to persistence in STEM. These students are less likely to have access to advanced coursework in high school, more likely to work while enrolled in college, and often lack the social and cultural capital to navigate higher education effectively (Engle & Tinto, 2008; Stephens et al., 2012). When combined with the structural challenges of STEM curricula, these disadvantages contribute to lower persistence rates and underrepresentation in STEM degree completion and careers.
+
+### Gateway Courses as Barriers
+
+Introductory or “gateway” STEM courses, such as Calculus I and Physics I, are widely considered “weed-out” classes that significantly influence whether students persist in STEM degrees (Ellis et al., 2016). These courses are characterized by high failure and withdrawal rates, and underrepresented students are disproportionately affected (Bressoud et al., 2015). Poor academic performance in these introductory courses not only reduces students’ confidence but also reinforces existing equity gaps in degree attainment and entry into STEM careers.
+
+### Outcome Expectations and Academic Support Interventions
+
+Social Cognitive Career Theory (Lent et al., 1994) identifies outcome expectations—the anticipated consequences of academic and career-related behaviors—as a critical predictor of persistence. In STEM contexts, students’ outcome expectations might include beliefs about financial stability, career mobility, or opportunities to contribute to society. Research suggests that students with strong positive outcome expectations are more likely to remain in STEM pathways, while those with negative expectations, even if academically capable, are more likely to leave (Garriott et al., 2017; Flores et al., 2019).
+
+To address these challenges, institutions have implemented a range of academic support interventions such as tutoring, supplemental instruction, bridge programs, and academic coaching. These interventions often improve performance and retention, but they can be highly resource-intensive to sustain. Moreover, limited research has examined which interventions most effectively enhance outcome expectations, particularly for underrepresented students in gateway STEM courses.
+
+### Purpose of the Study
+
+To this end, this dissertation study proposes an innovative approach to evaluate academic support interventions for underrepresented students in gateway STEM courses such as Calculus I. By leveraging **LLM-driven generative agent-based modeling**, the study seeks to simulate how interventions influence students’ outcome expectations.
+
+In addition, the study will incorporate **optimization strategies** to determine which interventions are most effective given varying student demographic profiles, institutional constraints, and competing goals. For example, multi-objective optimization will be used to balance priorities such as (a) maximizing benefits for target students, (b) improving overall student outcomes, (c) minimizing equity gaps, (d) ensuring consistency across cohorts, and (e) keeping costs manageable. This approach identifies a **Pareto front** of “best trade-off” interventions—those not outperformed across all goals—so decision-makers can select strategies aligned with institutional priorities. Alternatively, single-objective optimization can consolidate goals into a weighted score to produce one clear recommendation, with hard rules (e.g., “target group outcomes must not decline”) enforced.
+
+By combining **generative agent simulations** with **optimization methods**, this study moves beyond testing interventions in isolation. It provides a systematic framework for evaluating which interventions—or combinations of interventions—are most effective, equitable, and feasible in improving underrepresented students’ outcome expectations and persistence in gateway STEM courses.
+
+---
+
+**Research Questions**
+
+1. Do academic support interventions increase the positive outcome expectations of underrepresented students enrolled in gateway STEM courses such as Calculus I?
+2. Can a generative agent-based model simulate and replicate the effects of academic support interventions on students’ outcome expectations and experiences?
+3. How can optimization strategies using student demographic data identify the most effective and equitable interventions under varying institutional constraints (time, budget, scalability)?
+
+Great — here’s a **rewritten Methods section** that integrates both the **LLM-driven generative agent modeling** and the **optimization framework** (multi-objective and single-objective approaches) using student demographic data. I’ve kept the structure tight and committee-ready, so it’s clear how the two components fit together.
+
+---
+
+# Methods
+
+### Participants
+
+This study will focus on underrepresented students enrolled in **Calculus I**, a critical gateway STEM course at a large public research university in the Southeastern United States. Participants will include racially minoritized students, women, first-generation college students, and students from low-income backgrounds.
+
+### Data Collection
+
+1. **Surveys** – Pre- and post-surveys will measure students’ **outcome expectations** related to STEM, including beliefs about career opportunities, financial stability, and societal contributions.
+2. **Interviews** – Semi-structured interviews will capture in-depth narratives about students’ experiences in gateway courses, their perceptions of academic support interventions, and how these interventions influence outcome expectations.
+3. **Simulation Training Data** – Survey and interview responses will be used to construct generative student agent profiles. Each profile will embed demographic characteristics (e.g., first-generation status, race/ethnicity, gender, income background) along with students’ baseline outcome expectations.
+
+### Generative Agent-Based Modeling
+
+This study will employ **LLM-driven generative agent-based modeling (GABM)** to simulate how underrepresented students experience academic support interventions.
+
+* **Agent Profiles**: Each generative agent will be built using real participant data (survey + interview responses), ensuring that the simulation reflects authentic perspectives.
+* **Intervention Scenarios**: Agents will be exposed to simulated interventions such as tutoring, supplemental instruction, bridge programs, or academic coaching.
+* **Outcome Simulation**: Agents’ responses to interventions will be logged and analyzed to assess how outcome expectations shift across conditions.
+
+### Optimization Framework
+
+Because institutions must balance **multiple competing goals** (student outcomes, equity, cost, scalability), optimization methods will be applied to agent simulation outputs to identify the most effective interventions.
+
+#### Multi-Objective Optimization (Pareto Trade-Offs)
+
+Multi-objective optimization will be used to account for several goals simultaneously:
+
+* Maximize benefits for underrepresented student groups
+* Maximize overall course persistence and positive outcome expectations
+* Minimize equity gaps between groups
+* Ensure robustness across demographic profiles
+* Minimize institutional cost and resource intensity
+
+Using **Optuna**, the algorithm will generate a **Pareto front** of interventions—those that represent the best trade-offs across goals. This provides a short list of candidate strategies that are strong in different ways, allowing institutional leaders to choose based on their priorities (e.g., reducing equity gaps vs. maximizing overall improvement).
+
+#### Single-Objective Optimization (Weighted Scoreboard)
+
+As an alternative approach, goals will be combined into a **single weighted score** (e.g., 50% improvement for target group, 30% overall improvement, 20% robustness, with penalties for cost or widening equity gaps). Optuna will then search for the intervention with the **highest composite score**, subject to hard constraints such as “no harm to the target group.” This method provides one clear “winner,” which can be especially useful when stakeholders prefer a single recommendation.
+
+### Validation of Simulations and Optimization
+
+To ensure the validity of both the simulations and optimization outputs, several checks will be conducted:
+
+* **Survey Alignment**: Compare changes in outcome expectations between real students and simulated agents.
+* **Effect Size Analysis**: Assess whether simulated changes (Cohen’s *d*) mirror real-world changes.
+* **Cosine Similarity**: Compare semantic similarity of agent-generated responses and actual student responses.
+* **Optimization Robustness**: Test whether the “best” interventions remain consistent under small perturbations in weights, costs, or demographic distributions.
+
+---
+
+# Summary of Approach
+
+This mixed-method design combines **qualitative (interviews), quantitative (surveys), and computational (LLM + optimization) methods** to answer the research questions. Generative agents replicate student experiences, while optimization strategies use demographic data to identify the most effective, equitable, and feasible interventions. Together, these methods provide a rigorous framework for evaluating academic support in gateway STEM courses.
