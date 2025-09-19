@@ -1,0 +1,573 @@
+Qual_exam
+
+*** My dissertation is NO LONGER FOCUSED ON PEER MENTORING AND STUDENT SELF-EFFICACY ONLY. 
+*** NOW I WILL FOCUS ON USING OPTIMIZATION STRATEGIES TO FIND THE BEST INTERVENTION FOR UNDERREPRESENTED STUDENTS IN GATEWAY STEM COURSES SUCH AS CALCULUS I. 
+*** I WILL ALSO FOCUS ON USING GENERATIVE AGENT-BASED MODELS TO SIMULATE THE EFFECTS OF THE INTERVENTIONS ON STUDENT OUTCOME EXPECTATIONS.
+*** I WILL FOCUS ON USING STUDENT DEMOGRAPHIC DATA TO FIND THE BEST INTERVENTION FOR UNDERREPRESENTED STUDENTS IN GATEWAY STEM COURSES SUCH AS CALCULUS I.
+*** I WILL FOCUS ON OUTCOME EXPECTATIONS AND PERSISTENCE IN STEM MAJORS AS PART OF SCCT (Social Cognitive Career Theory)
+
+
+below is an overview from Overleaf of what i was planning to do for my dissertation. But i will no longer be focused solely on peer mentoring. 
+
+
+\documentclass[man]{apa7}  
+
+% ======= PREAMBLE STARTS HERE =======
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{lipsum} % for dummy text
+\usepackage{hanging}
+\setlength{\parindent}{0.5in}
+
+% ======= PREAMBLE ENDS HERE =======
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Will add the abstract here!!!
+\end{abstract}
+
+
+
+\title{Historically Underrepresented Student Populations in STEM}
+\author{Rachel Dean Divaker}
+\affiliation{University of Florida}
+
+
+
+\section*{\textbf{Introduction}}
+\subsection*{\textbf{Benefits of pursuing a STEM higher education}}
+
+Pursuing a STEM-related (Science, Technology, Engineering, Mathematics) degree offers college graduates significant financial benefits and career advancement opportunities. Recent data from NCSES (2023) shows that graduates with at least a bachelor's degree in a STEM discipline have considerably higher salaries compared to graduates with non-STEM degrees, with STEM workers having a \$20,000 higher median salary than those in non-STEM careers (NSF, 2022; NCSES, 2023). In addition to the financial benefits of pursuing a STEM career (U.S. Bureau of Labor Statistics, 2023), STEM fields promote critical thinking to solve complex problems through strong analytical skills and innovation, making recent college graduates competitive on the job market (NSB, 2024). Given the financial benefits and career growth opportunities available to STEM workers, recent college graduates entering STEM fields have promising potential for substantial earnings and upward mobility in their careers.  
+
+Among STEM fields, engineering and computing fields have some of the highest salaries, and significant job growth is expected over the next decade (Kennedy, Fry, \& Funk, 2021). Entry into software development, industrial engineering, mechanical engineering, electrical engineering, aerospace engineering, civil engineering, and other chief executive positions requires a bachelor's degree (Bureau of Labor Statistics, 2024). According to the U.S. Bureau of Labor Statistics (2024), engineering fields are projected to have faster job growth than the average for all occupations from 2023 to 2033, adding almost 200,000 jobs annually. Further, engineering graduates make a significantly higher median annual salary of \$100,000 compared to \$66,000 in other fields (Bureau of Labor Statistics, 2024). 
+
+\subsection*{\textbf{Lack of Diversity in STEM Fields}}
+
+Despite these clear benefits, certain groups remain underrepresented in engineering and other STEM fields. Equitable access to promising career opportunities is central to the mission of higher education, yet gaps in representation persist, particularly among underrepresented student populations, such as first-generation students, racially minoritized groups, low-income students, and women (Fry, Kennedy, \& Funk, 2021; Graham et al., 2013; Hill et al., 2010; Oyelaran, 2023). For example, the earnings of STEM workers with a bachelor's degree compared to those without one show that higher education contributes to higher earnings; however, underrepresented groups make significantly less than majority STEM groups (e.g., White and Asian men) across all STEM fields (NCSES, 2021). Disparities in earnings are especially evident when comparing the median salaries between White and Asian men against women and other minority racial groups. For example, regardless of education level, men consistently earn more than women in STEM and non-STEM fields. For example, men with at least a bachelor's degree earned a median salary of \$97,000 compared to \$74,000 for women with the same level of education. Similarly, Asian and white men earned the highest salaries of \$100,000 and \$ 80,000, respectively, while black workers earned \$72,000, followed by Hispanic workers earning \$ 70,000 with the same level of education. 
+
+\subsubsection*{\textit{\textbf{Women in STEM}}}
+
+Although women earn more than half of bachelor's degrees, they make up only about a third of students pursuing STEM, especially in fields such as physical sciences, engineering, and computer science (Fry, Kennedy, \& Funk, 2021). Women who pursue STEM degrees face various barriers that could limit their ability to persist and succeed in higher education. Academic challenges often stem from negative biased perceptions about their math or science proficiency. Negative stereotyping about women’s abilities in STEM impacts their self-confidence and self-efficacy in their ability to pursue a STEM major and career path(Hill et al., 2010). Ellis et al. (2016) found that women are 1.5 times more likely than men to drop out of a Calculus I course, due to low self-confidence and self-efficacy when they do not understand the course material. These students are more likely to switch majors, whereas men with similar struggles are more likely to remain in their STEM major. If women continued in their STEM major at the same rate as men starting in Calculus I, STEM fields would see a 75\% increase in female representation (Ellis et al., 2016). 
+	
+These biases, whether implicit or overt, can influence the hiring processes and career advancement opportunities, which further exacerbates the gap in gender representation in STEM fields. Women of color in STEM, in particular, face additional barriers. Ong et al. (2018) found that women of color in STEM face dismissive attitudes from male peers and faculty, leading to self-doubt and discouraging them from seeking help for fear of confirming negative stereotypes about their abilities. The lack of diverse role models and mentors exacerbates these challenges, making it difficult for them to imagine themselves in the field. 
+
+\subsubsection*{\textbf{\textit{Racial Minority Groups in STEM}}}
+
+Racial disparities in STEM higher education also remain a persistent issue. Despite making up more than 30\% of the undergraduate population in the U.S., only 15\% of Black and Hispanic students earn a STEM bachelor’s degree (National Student Clearinghouse Research Center, 2020). Only 10\% of students from high schools with a high percentage of racially minoritized students earned a STEM degree, compared to 17\% of students from low-minority high schools (National Student Clearinghouse Research Center, 2020). Underrepresented minority students (URM), such as Black, Latinx, and Native American students, are more likely to leave STEM majors and less likely to graduate compared to their White peers. These disparities stem from financial barriers, lack of support and resources, stereotype threats, and lack of mentorship in STEM fields (Funk \& Parker, 2018). Research shows that URM students face biases that contribute to feelings of isolation and self-doubt in their ability to succeed in STEM disciplines. For instance, Ong et al. (2018) found that racial minority students feel that they do not belong in STEM, which often prevents them from seeking academic support from faculty. These negative experiences lead to lower retention and graduation rates in STEM fields. 
+    
+\subsubsection*{\textbf{\textit{First-Generation Students and Students from Low Socioeconomic Backgrounds in STEM}}}
+
+First-generation college students are students whose parent(s) or legal guardian(s) did not complete a bachelor’s degree (RTI International, 2024; Stebleton \& Soria, 2012). Over half of first-generation college students do not earn a college degree within six years (National Center for Education Statistics, 2022). These students often struggle to navigate the college admissions process, financial aid applications, and the academic expectations of higher education, and college life in general (Aruguete, 2017; Stebleton \& Soria, 2012). Moekler and Kim (2014) found that students with parents in STEM careers are 1.5 times more likely to pursue a STEM major due to early exposure to these professions. However, if first-generation students do not have STEM role models, they may be less likely to envision themselves pursuing a STEM degree.
+    
+Similarly, students from low socioeconomic backgrounds are more likely to be first-generation students (RTI International, 2024). They are historically underrepresented in college compared to their peers from higher-income backgrounds, and they have lower success rates in STEM fields, which is attributed to their first-generation status (Doershuk et al., 2016).  National Student Clearinghouse (2020) reports that only 9\% of students from low-income high schools received a STEM degree within six years of high school graduation. Financial barriers, like the cost of tuition, living expenses, and a lack of access to financial aid information and support, impact their ability to pursue and complete a college degree. These challenges are especially pronounced in STEM fields, where financial limitations can prevent students from taking advanced mathematics and science courses with lab and technology requirements (Castleman et al., 2014).
+
+\subsection*{\textbf{Student STEM Self-Efficacy and Institutional Support Interventions}}
+
+Multiple studies have shown that self-efficacy, the confidence or belief in one’s ability to succeed, is a key predictor in selecting and persisting in a STEM degree (Alderen-Smeets et al., 2018; Cabell, 2021; Larson et al., 2015; Lin, 2016; MacPhee et al., 2013). MacPhee et al. (2013) found that women have lower self-efficacy than men despite comparable academic performance. Particularly in engineering, men show higher levels of academic self-efficacy (Halim et al., 2018). Similarly, students with multiple minority statuses tend to have lower self-efficacy and academic performance than those with one minority status (MacPhee et al., 2013). According to Syed et al. (2018), self-efficacy is the most important factor in pursuing science or math-related majors.
+
+Higher education institutions play an important role in supporting underrepresented student groups in STEM. Colleges and universities have adopted a number of approaches to increase diversity across STEM disciplines from summer bridge programs (Estrada et al., 2017), STEM-focused student organizations (Estrada et al., 2017), proactive academic advising models (Hall \& Sverdlik, 2016), and immersive hands-on learning opportunities (Ives et al., 2024; Soldner et al., 2012). In particular, mentorship interventions that connect students with peers or faculty members have been shown to improve STEM persistence rates (Markle et al., 2022; Wilson et al., 2012). Atkins et al. (2020) found that mentoring is critical in enhancing student self-efficacy especially among underrepresented STEM students. In mentorship programs, mentors meet with their mentees regularly to offer guidance, address challenges and concerns, and help students navigate their coursework and educational experience (Amelink et al., 2015).  MacPhee (2013) found that increased academic self-efficacy in both women and racially minority students stem from positive mentorship experiences (MacPhee, 2013). 
+
+While these support strategies are effective in enhancing the engagement and success outcomes of underrepresented students in STEM higher education (Dyer-Barr, 2014), they can be costly and time and resource intensive to implement. It is also challenging to know which interventions are most effective in supporting certain student groups and outcomes could vary based on resources available at varying institution types. For instance, what works well for racially minoritized students at a small private college may not be as effective for low-income students at a large public university. 
+
+To address these gaps, we turn to advanced computational models that offer data-driven evidence on student outcomes using artificial intelligence (AI)- powered large language models (LLMs) such as ChatGPT 4o (Open AI, 2024), Gemini 1.5 (Google DeepMind, 2024), LLaMA 2 (Meta AI, 2023), and Claude 3 (Anthropic, 2024). LLMs can simulate student behaviors, attitudes, and decision-making patterns to test the effectiveness of interventions before implementing them in a real-world context. These models hold the capacity to give higher education researchers the ability to evaluate the effectiveness of interventions before implementing them.
+
+
+\subsection*{Purpose of the Study}
+
+This study aims to address the gap between large-language model (LLM) and higher education practice by implementing and assessing AI-driven interventions in a low-cost, virtual environment before implementing them in real-world settings. To achieve this aim, I will develop simulated "student agents," fine-tuned on LLM data (e.g., XXXX) and student survey data. These student agents will replicate the experiences, behaviors, and outcomes of students using AI tutoring support in an early STEM "gateway" course, specifically Calculus I. Ideally, this study will not only evaluate the effects of AI tutoring interventions on student success in Calculus I but will also evaluate whether LLM-based simulations are a reliable and effective approach to evaluating interventions before implementation. If successful, this study offers higher education researchers, practitioners, and policymakers a novel approach to exploring best practices and testing interventions before spending significant time and resources to implement them.  
+
+
+The following research questions will guide this study: 
+
+1.	Does using AI-personalized tutoring support improve students' outcome expectations (e.g., persistence in STEM major) in Calculus I?
+1a. How do these effects vary by student background?
+2.	Can a generative agent-based model, fine-tuned with LLM-generated and survey data, reliably replicate the effects of AI-based tutoring on the outcome expectations of students taking Calculus I?
+
+\section*{\textbf{References}
+}
+
+\begin{hangparas}{0.5in}{1}
+    
+
+Anthropic. (2024). Claude 3 [Large language model]. Retrieved from https://www.anthropic.com
+
+Amelink, C. T., Artis, S., \& King Liu, T. J. (2015). Examining the Self-Efficacy of Community College STEM Majors: Factors Related to Four-Year Degree Attainment. Community College Journal of Research and Practice, 39(12), 1111–1124. 
+https://doi.org/10.1080/10668926.2014.941514
+
+Aruguete, M. S. (2017). Recognizing challenges and predicting success in first-generation university students. Journal of STEM Education: Innovations and Research, 18(2). 40-44.
+
+Atkins, K., Dougan, B. M., Dromgold-Sermen, M. S., Potter, H., Sathy, V., \& Panter, A. T. (2020). “Looking at Myself in the Future”: How mentoring shapes scientific identity for STEM students from underrepresented groups. International Journal of STEM Education, 7, 1-15. https://doi.org/10.1186/s40594-020-00242-3
+
+Bureau of Labor Statistics, U.S. Department of Labor. (2024). Occupational Outlook Handbook, Architecture and Engineering Occupations. https://www.bls.gov/ooh/architecture-and-engineering/ 
+
+Bureau of Labor Statistics, U.S. Department of Labor. (2024). Occupational Outlook Handbook, Field of Degree: Engineering. https://www.bls.gov/ooh/field-of-degree/engineering/engineering-field-of-degree.html
+
+Cabell, A. L. (2021). Career search self‐efficacy and STEM major persistence. The Career Development Quarterly, 69(2), 158-164.https://doi.org/10.1002/cdq.12256
+
+Casad, B. J., Franks, J. E., Garasky, C. E., Kittleman, M. M., Roesler, A. C., Hall, D. Y., \& Petzel, Z. W. (2021). Gender inequality in academia: Problems and solutions for women faculty in STEM. Journal of Neuroscience Research, 99(1), 13–23. https://doi.org/10.1002/jnr.24631
+
+Castleman, B. L., Long, B. T., \& Mabel, Z. A. (2014). Financial Barriers to STEM Study in College: Causal Effect Estimates of Need-Based Grants on the Pursuit and Completion of Courses and Degrees in STEM Fields. Society for Research on Educational Effectiveness. 1-11.
+
+Doerschuk, P., Bahrim, C., Daniel, J., Kruger, J., Mann, J., \& Martin, C. (2016). Closing the gaps and filling the STEM pipeline: A multidisciplinary approach. Journal of Science Education and Technology, 25, 682–695. https://doi.org/10.1007/s10956-016-9622-8
+
+Dyer-Barr, R. (2014). Research to practice: Identifying best practices for STEM intervention programs for URMs. Quality Approaches in Higher Education, 5(1), 19–25.
+
+Ellis, J., Fosdick, B. K., \& Rasmussen, C. (2016). Women 1.5 times more likely to leave STEM pipeline after calculus compared to men: Lack of mathematical confidence a potential culprit. PLOS ONE, 11(7). https://doi.org/10.1371/journal.pone.0157447
+
+Estrada, M., Burnett, M., Campbell, A. G., Campbell, P. B., Denetclaw, W. F., Gutiérrez, C. G., Hurtado, S., John, G. H., Matsui, J., McGee, R., Okpodu, C. M., Robinson, T. J., Summers, M. F., Werner-Washburne, M., \& Zavala, M. (2016). Improving underrepresented minority student persistence in STEM. CBE—Life Sciences Education, 15(3). https://doi.org/10.1187/cbe.16-01-0038
+
+Funk, C., \& Parker, K. (2018, January 9). Women and men in STEM often at odds over workplace equity. Pew Research Center.
+
+Google DeepMind. (2024). Gemini 1.5 [Large language model]. Retrieved from https://deepmind.google
+
+Graham, M. J., Frederick, J., Byars-Winston, A., Hunter, A.-B., \& Handelsman, J. (2013). Increasing persistence of college students in STEM. Science, 341(6153), 1455–1456. https://doi.org/10.1126/science.1240487
+
+Halim, L., Rahman, N. A., Ramli, N. A. M., \& Mohtar, L. E. (2018, January). Influence of students’ STEM self-efficacy on STEM and physics career choice. In AIP Conference Proceedings (Vol. 1923, No. 1). AIP Publishing.
+
+Hall, N. C., \& Sverdlik, A. (2016). Encouraging realistic expectations in STEM students: Paradoxical effects of a motivational intervention. Frontiers in Psychology, 7. https://doi.org/10.3389/fpsyg.2016.01109
+
+Hill, C., Corbett, C., \& St. Rose, A. (2010). Why so few? Women in science, technology, engineering, and mathematics. American Association of University Women.
+
+Hurtado, S., Newman, C. B., Tran, M. C., \& Chang, M. J. (2010). Improving the rate of success for underrepresented racial minorities in STEM fields: Insights from a national project. New Directions for Institutional Research, 2010(148), 5–15. https://doi.org/10.1002/ir.357
+
+Ives, J., Falk, J., \& Drayton, B. (2024). Broadening participation in STEM through equity-minded high-impact practices: A multimodal systematic review. Higher Education, 88(3), 1183–1203. https://doi.org/10.1007/s10734-023-01165-y
+
+Kennedy, B., Fry, R., \& Funk, C. (2021, April 14). 6 facts about America’s STEM workforce and those training for it. Pew Research Center. https://www.pewresearch.org/short-reads/2021/04/14/6-facts-about-americas-stem-workforce-and-those-training-for-it/
+
+Larson, L. M., Pesch, K. M., Surapaneni, S., Bonitz, V. S., Wu, T. F., \& Werbel, J. D. (2015). Predicting graduation: The role of mathematics/science self-efficacy. Journal of Career Assessment, 23(3), 399-409.https://doi.org/10.1177/1069072714547322
+
+Lin, G.-Y. (2016). Self-efficacy beliefs and their sources in undergraduate computing disciplines: An examination of gender and persistence. Journal of Educational Computing Research, 53(4), 540-561. https://doi.org/10.1177/0735633115608440
+
+MacPhee, D., Farro, S., \& Canetto, S. S. (2013). Academic self‐efficacy and performance of underrepresented STEM majors: Gender, ethnic, and social class patterns. Analyses of Social Issues and Public Policy, 13(1), 347-369. https://doi.org/10.1111/asap.12033
+
+Markle, R. S., Williams, T. M., Williams, K. S., deGravelles, K. H., Bagayoko, D., \& Warner, I. M. (2022). Supporting historically underrepresented groups in STEM higher education: The promise of structured mentoring networks. Frontiers in Education, 7. https://doi.org/10.3389/feduc.2022.674669
+
+McGee, E. O. (2016). Devalued Black and Latino racial identities: A by-product of STEM college culture? American Educational Research Journal, 53(6), 1626–1662. https://doi.org/10.3102/0002831216676572
+Meta AI. (2023). LLaMA 2 [Large language model]. Retrieved from https://ai.meta.com
+
+Microsoft. (2024). Copilot powered by GPT-4 [Large language model]. Retrieved from https://www.microsoft.com
+
+Moakler, M. W., \& Kim, M. M. (2014). College major choice in STEM: Revisiting confidence and demographic factors. The Career Development Quarterly, 62(2), 128–142. https://doi.org/10.1002/j.2161-0045.2014.00075.x
+
+National Center for Education Statistics. (2022). Beginning Postsecondary Students Longitudinal Study. U.S. Department of Education. https://nces.ed.gov/surveys/bps/
+
+National Center for Science and Engineering Statistics (NCSES). (2023, January 30). Diversity and STEM: Women, minorities, and persons with disabilities. Directorate for Social, Behavioral and Economic Sciences, National Science Foundation. https://ncses.nsf.gov/pubs/nsf23315/report/stem-median-wage-and-salary-earnings
+
+National Science Foundation. (2022). 2022 science and engineering indicators: STEM labor market characteristics, earnings, occupations, and industries. https://ncses.nsf.gov/pubs/nsb20245/stem-labor-market-characteristics-earnings-occupations-and-industries
+
+National Science Board. (2024). U.S. STEM workforce: Size, growth, and employment. National Science Foundation. https://ncses.nsf.gov/pubs/nsb20245/u-s-stem-workforce-size-growth-and-employment
+
+National Student Clearinghouse Research Center. (2020, December 10). High school benchmarks: National college progression rates. https://nscresearchcenter.org/wp-content/uploads/2020HSBenchmarksReport.pdf
+
+Ong, M., Smith, J. M., \& Ko, L. T. (2018). Counterspaces for women of color in STEM higher education: Marginal and central spaces for persistence and success. Journal of Research in Science Teaching, 55(2), 206–245. https://doi.org/10.1002/tea.21417
+
+OpenAI. (2024). ChatGPT-4 (April 2024 version) [Large language model]. Retrieved from https://openai.com
+
+Oyelaran, O. (2023). Improving persistence of underrepresented racial minority science majors: Where to begin. Frontiers in Education, 8. https://doi.org/10.3389/feduc.2023.1280609
+
+RTI International. (2024). First-generation college students’ achievement and federal student loan repayment. FirstGen Forward. https://firstgenforward.org
+
+Soldner, M., Rowan-Kenyon, H., Inkelas, K. K., Garvey, J., \& Robbins, C. (2012). Supporting students’ intentions to persist in STEM disciplines: The role of living-learning programs among other social-cognitive factors. The Journal of Higher Education, 83(3), 311–336. https://doi.org/10.1080/00221546.2012.11777246
+
+Stebleton, M. J., \& Soria, K. M. (2012). Breaking down barriers: academic obstacles of first-generation students at research universities. Learning Assistance Review, 17(2), 7-20.
+
+Syed, M., Zurbriggen, E. L., Chemers, M. M., Goza, B. K., Bearman, S., Crosby, F. J., ... \& Morgan, E. M. (2019). The role of self‐efficacy and identity in mediating the effects of STEM support experiences. Analyses of Social Issues and Public Policy, 19(1), 7-49.
+
+U.S. Bureau of Labor Statistics. (2023). Occupational employment and wage statistics: May 2023. Bureau of Labor Statistics. https://www.bls.gov/oes/current/oes151252.html
+
+Van Aalderen‐Smeets, S. I., Walma van der Molen, J. H., \& Xenidou‐Dervou, I. (2019). Implicit STEM ability beliefs predict secondary school students' STEM self‐efficacy beliefs and their intention to opt for a STEM field career. Journal of research in science teaching, 56(4), 465-485.
+
+Wilson, Z. S., Holmes, L., deGravelles, K., Sylvain, M. R., Batiste, L., Johnson, M., McGuire, S. Y., Pang, S. S., \& Warner, I. M. (2012). Hierarchical mentoring: A transformative strategy for improving diversity and retention in undergraduate STEM disciplines. Journal of Science Education and Technology, 21(1), 148–156. https://doi.org/10.1007/s10956-011-9292-5
+
+\end{hangparas}
+
+\end{document}
+
+
+\newpage
+
+\textbf{
+\section{Literature Review}
+}
+
+\subsection{\textbf{Underrepresented Students in STEM Higher Education and Workforce}}
+
+STEM fields offer competitive salaries and job opportunities for career growth, making careers in these fields especially attractive among college students. However, persistent disparities limit upward social mobility for some, resulting in a lack of diversity within these fields. Although students from underrepresented groups have made significant progress in pursuing STEM degrees, disparities in persistence and completion rates remain. Prior work has institutional support and resources can improve student self-efficacy and belongingness in STEM (Casad et al., 2021; Estrada et al., 2016; Hurtado et al., 2010; McGee, 2016; Ong et al., 2017; Oyelaran, 2023). 
+\textbf{
+\subsubsection{\textit{Women in STEM}}
+}
+Disparities within the STEM pipeline often begin before students start college (Clark Blickenstaff, 2006). Research shows that confidence in mathematics is one of the strongest predictors of selecting and persisting in a STEM degree (Moakler \& Kim, 2014), yet women consistently report lower self-confidence in math than their male peers (Moakler \& Kim, 2014). First-year female college students are less likely to select a STEM major and those who do often struggle to persist and graduate with a STEM degree (Hill et al., 2010). Rittmayer and Beier (2008) attribute women’s underrepresentation in STEM to negative self-efficacy or beliefs in their ability to succeed, which impacts their academic persistence. Because women are more likely than men to underestimate their abilities in math and science, they are more likely to become disengaged and struggle in introductory STEM courses (Ellis et al., 2016). Studies attribute feelings of self-doubt to negative stereotypes and unwelcoming classroom environments, which impact women’s sense of belonging (Blackburn, 2017; Hill et al., 2010; Ong et al., 2017). Due to dismissive attitudes and remarks from male peers and faculty, women are less likely to seek academic support for fear of confirming negative stereotypes about their abilities (Blackburn, 2017; Ong et al., 2017). Cheryan et al. (2017) describe how male-dominated fields, particularly in tech industries, foster a “geeky” or masculine culture, further promoting a sense of exclusion and isolation among women. 
+\subsubsection{\textit{\textbf{Racial Minority Groups in STEM}}}
+
+Similar to gender disparities faced by women, racial minority students in STEM face challenges due to economic barriers, limited access to educational opportunities and resources, and a lack of diverse teacher representation (Agrawal et al., 2016). These factors contribute to lower retention rates among Black and Latinx students in STEM majors compared to their White and Asian peers (Herrera \& Hurtado, 2011). Negative stereotypes and microaggressions in STEM environments also decrease the self-confidence and hinder the persistence of Black and Latinx students (Grossman \& Porche, 2014; Lee et al., 2020; McGee, 2016).  According to Lee et al. (2020), black students in STEM have the highest likelihood of experiencing microaggressions, while undergraduate students are more likely than graduate students to encounter microaggressions from faculty and peers. Although Wilson et al. (2012) found that Black and Hispanic students have higher levels of self-efficacy than Asian and White students, their perceived sense of self-efficacy drops off significantly in STEM courses (Wilson et al., 2012), causing these students to leave STEM majors altogether (Riegle-Crumb et al., 2019). Grossman and Porche (2014) found that many of these students have concerns about hiring biases and racial stereotyping in STEM fields. While Asian students are stereotyped as being naturally proficient in math and science, Black and Latinx students have concerns about being viewed as less competent in these subjects.
+\textbf{\textit{
+\subsubsection{Intersectionality of Race and Gender}
+}}
+	
+Intersectionality (Crenshaw, 1989; 1994) highlights the challenges that individuals with overlapping identities, such as race, gender, class, and socioeconomic status, may face. For example, a Black woman in STEM may face both racial and gender biases. Her intersecting identities can intensify the challenges she faces. According to Crenshaw (1989; 1994), individuals with multiple disadvantaged identities are likely to face a wider range of challenges than those with a single disadvantaged identity. On the other hand, those with multiple privileged identities may experience a wider range of advantages. Considering the impact of multiple social identities, many studies have explored the barriers faced by women and underrepresented racial minorities in STEM disciplines (Armstrong \& Jovanovic, 2015; Guy \& Boards, 2019; Herrera \& Hurtado, 2011; Kanny et al., 2014; O’Brien et al., 2020). These experiences extend to other historically disadvantaged groups, including first-generation students and those from lower socioeconomic backgrounds. These underrepresented student groups are likely to encounter institutional barriers and personal experiences of exclusion that shape their experience and persistence in STEM. 
+\subsubsection{\textbf{\textit{First-Generation Students}}}
+First-generation college students face unique barriers, ranging from academic underpreparedness, financial burdens, low self-efficacy in math and science, and limited STEM mentorship (Garriott et al., 2017; Thompson, 2021; Verdin \& Godwin, 2015). These students are less likely to complete a STEM degree than continuing-generation students (Bettencourt et al., 2020). Research shows that strong math and science preparedness, exposure to STEM mentors, and a high sense of self-efficacy in math and science contribute to STEM degree persistence and completion (Bettencourt et al., 2020; Dika \& D'Amico, 2016; Thompson, 2021). First-generation students, especially those from lower socioeconomic backgrounds, are less likely to have parents who work in STEM fields (Garriott et al., 2017; Verdin \& Godwin, 2015). Additionally, they often attend under-resourced high schools and do not have the same level of college readiness as students in wealthier school districts (Bettencourt et al., 2020). These students often feel intimidated to ask for help in large lecture-based classes and face increased pressure to do well in their classes to keep scholarships (Marco-Bujosa et al., 2024). First-year STEM courses with fast-paced instruction can cause underprepared students to feel overwhelmed and lose confidence in their ability to pursue a STEM degree (Marco-Bujosa et al., 2024). 
+\textbf{\textit{
+\subsubsection{Students from low socioeconomic backgrounds}
+}}
+	Students from low socioeconomic backgrounds face economic challenges that often limit their ability to engage in STEM academic opportunities because they often must balance academic responsibilities with work obligations to meet living expenses (Garriott et al., 2017). Like first-generation students, many attended underserved high schools and feel underprepared to attend college (Bettencourt et al., 2020). As a result, these students often take remedial math and science courses, further delaying their college graduation (Bahr, 2008). Addressing academic and economic barriers is necessary to improving the STEM persistence and degree completion among students from lower socioeconomic backgrounds. 
+\textbf{
+\subsection{Defining Self-Efficacy}
+}
+The concept of self-efficacy is critical to understanding the persistence issues of underrepresented students in STEM higher education. Bandura (1997) defines self-efficacy as “people’s beliefs about their capabilities to produce designated levels of performance that exercise influence over events that affect their lives. Self-efficacy beliefs determine how people feel, think, motivate themselves and behave” (p. 1). So, individuals with a high sense of self-efficacy are more inclined to see difficult circumstances as an opportunity to overcome obstacles rather than avoid them altogether. 
+Bandura (1997) explains that self-efficacy is shaped by four sources of influence including mastery experiences, vicarious experiences, social persuasion, and physiological and emotional states. Mastery experiences are successes that one achieves through perseverance. These successes contribute to a greater sense of self-efficacy. Vicarious experiences occur when someone observes another person with similar background characteristics succeed. This experience helps individuals to believe in their own ability to succeed if someone who is like them succeeds. Social persuasion happens when individuals encourage others to achieve their goals. In turn, people feel more motivated to work toward their goals. Finally, one’s physiological and emotional state can impact their sense of self-efficacy. Positive states, such as feelings of inspiration or encouragement, and negative states, such as stress or fatigue, can either positively or negatively affect self-efficacy. 
+Bandura (1997) states that self-efficacy beliefs are influenced by an individual’s cognitive, motivational, affective, and selection processes. First, those with a strong sense of self-efficacy will likely be committed to setting goals and working toward achieving them. These individuals have a strong sense of determination to persevere despite setbacks. They are more likely to envision themselves as being successful despite barriers to success. Second, those with high self-efficacy beliefs set ambitious goals and do not associate failure with their lack of ability to succeed. Failure causes them to work even harder to achieve their goals. Third, individuals with high self-efficacy are better at managing their stress and negative emotions through positive coping strategies. When they encounter an issue, they think proactively about how to overcome the issue. Finally, individuals with high self-efficacy are more apt to engage in opportunities that those with low self-efficacy may avoid. For example, these individuals are not limited by barriers and are more likely to pursue a challenging career path because it fits their interests. 
+\subsubsection{\textbf{\textit{Self-Efficacy Challenges for Underrepresented Students in STEM}}}
+	Stereotypes about who does and does not “belong” in STEM fields can negatively impact the experience and persistence of students in these degree programs (Lee et al., 2020; Sebastián-Tirado et al., 2023). For instance, Sebastián-Tirado et al. (2023) found that women affected by negative stereotypes about their math competence had lower math performance. Underrepresented students also tend to feel isolated and excluded from majority groups in their classes, which can reduce confidence in their ability to succeed (Ortiz-Martinez et al., 2023; Wilson et al., 2012). Students from under-resourced high schools are less likely to keep pace with challenging STEM coursework (Lane et al., 2020). This gap in college readiness can result in reduced confidence and self-efficacy, impacting their persistence and success in STEM degree programs. 
+\subsection{\textbf{Theoretical Framework}}
+Given the role of self-efficacy in shaping STEM interests, choices, and performance, this study is guided by Lent et al.’s (1994) social cognitive career theory (SCCT). The SCCT is centered on self-efficacy beliefs (e.g., belief in one’s ability to perform tasks), outcome expectations (e.g., anticipation of positive outcomes), and personal goals (e.g., persistence in achieving goals). The SCCT consists of four models, including the interests model, choice model, performance model, and satisfaction model (Lent, 2013). First, career interests develop through exposure to careers and encouragement from others to pursue career-related opportunities. Positive support from others contributes to greater interest in that particular career area. Second, career choices are not impulsive decisions but develop over time as individuals explore opportunities they are interested in. In turn, career performance is determined by one’s sense of self-efficacy, opportunities available to them, and past experiences. For instance, if students have resources, skillset, and a support network, they are more likely to pursue and succeed in an opportunity of interest that is available to them. Finally, career satisfaction is shaped by how well career experiences are aligned with their self-efficacy, outcome expectations, and goals. 
+\subsection{\textbf{Enhancing Student Self-Efficacy through Mentorship Programs }}
+Higher education institutions have implemented many interventions to support student success. One of the most widely implemented interventions for improving STEM retention is mentoring (Moakler \& Kim, 2014; Rincon \& George, 2016). Structured mentorship programs with faculty, graduate students, and peer mentors have been shown to increase STEM retention and graduation rates among women and racially minoritized students (Wilson et al., 2012). Mentoring helped students develop learning strategies, research skills, and academic support networks, leading to increased persistence. Mentorship relationships have been shown to improve students’ motivation and attitudes toward STEM fields (van den Hurk et al., 2019) by increasing students’ interest and persistence in STEM and fostering a sense of community (Markle et al., 2022; Ong et al., 2017). 
+Peer mentoring is particularly beneficial as it allows students to receive advice and support from their peers, contributing to greater engagement in their program (Sithole et al., 2017). Peer mentoring relationships are especially effective because students feel comfortable to openly share concerns (Ramsey et al., 2013). Peer mentoring also reduces feelings of isolation among students struggling with coursework (Armstrong \& Jovanovic, 2015). Gladstone and Cimpian (2021) found that having role models from similar demographic backgrounds benefits underrepresented students since it provides relatable mentors they want to emulate. Mentors with similar social identities help students feel supported without added feelings of pressure or bias. 
+O’Brien et al. (2020) explored mentoring interventions and found that women who received the mentorship treatment had higher STEM GPAs than students in the control group. O’Brien et al. (2020) found that mentoring interventions educate students about stereotypes and coping strategies, which led to higher STEM GPAs among students who participated in these programs. 
+\subsection{\textbf{The Rise of Artificial Intelligence in Higher Education}}
+While peer mentoring and other traditional support strategies have been shown to be effective, scaling them to large populations can be a challenge. Generative artificial intelligence (AI) has emerged as an innovative tool that is rapidly revolutionizing teaching, learning, and administrative processes in higher education (Jensen et al., 2024). Martinueau (2023) defines generative AI as “deep learning models that generate high-quality text, images, or other content based on the data they were trained on” (para. 1). These tools can automate administrative tasks, use predictive analytics to identify at-risk students, and offer personalized learning experiences with adaptive feedback (Bates et al., 2020; Bearman et al., 2023; Crompton \& Burke, 2023; Michel-Villarreal et al., 2023; Neumann et al., 2023; Southworth et al., 2023; Zawacki-Richter et al., 2019). 
+\subsection{\textbf{Generative Agent-Based Modeling and Large Language Models }}
+With the recent advancements in artificial intelligence, large language models (LLMs) have the capability to perform human-like reasoning and problem-solving (Kojima et al., 2022). Large language models offer the most up-to-date advancements in language processing by training on vast amounts of textual data with models designed to produce text generation, summarization, and translation outputs (Li et al., 2023; Wang et al., 2024; Zhang et al., 2024). 
+Generative Agent-Based Modeling (GABM) uses LLMs to generate accurate and realistic simulations that can be applied in the real world. Historically, Agent-Based Modeling (ABM) used predefined rules and equations to simulate agents, which represent real people or organizations, to interact with one another in a virtual environment (Bonabeau, 2002). Predefined rules guide agent behavior through logical or conditions based on specific inputs. Symbolic equations use algebraic or differential equations to quantitatively model agent interactions and behaviors (Gao et al., 2024). Because ABM outputs depend on parameters and predefined rules, it is challenging to apply ABMs to real-world contexts (Ferraro et al., 2024). However, when integrating ABM with generative AI models, we can now generate accurate and realistic simulations that can be applied in the real world. 
+The integration of Large Language Models (LLMs) with Agent-Based Models (ABMs) to develop Generative Agent-Based Models (GABMs) holds the potential to transform higher education research. GABMs use LLMs to simulate autonomous, human-like agents that interact, reason, and make decisions within virtual environments (Park et al., 2023, 2024; Vezhnevets et al., 2023). While conventional ABMs required predefined rules and instructions, GABMs can recall memories from pre-trained LLMs, reason and react dynamically, and interact and communicate just like humans. Generative AI produces dynamic agent behavior through prompt engineering inputs. GABMs operate by receiving information about their environment and agents evaluate their surroundings and consider past experiences (or memories) to make informed decisions. These agents can learn and adapt over time by recalling these memories (Dong et al., 2022) and the reasoning process continues until a goal or condition in the model is met (Ghaffarzadegan et al., 2024). Each agent consists of profile, memory, and action components that allow them to replicate thoughts, attitudes, behaviors, and decision-making. Profiles are developed from memory banks which contain factual and emotional experiences of real participant behaviors and emotions (Zhang et al., 2024). LLMs can extract rich data from interviews to simulate human reasoning and behaviors (Zhang et al., 2024). By training generative agents on real student data, higher education researchers can analyze how different interventions could influence academic performance and success in a low-risk and low-cost virtual environment (Gao et al., 2024; Park et al., 2023, 2024; Zhang et al., 2024). 
+Several studies have shown the potential of GABM in education fields. For instance, Zhang et al. (2024) created SimClass, a virtual classroom environment with an instructor agent and student agents to simulate real classroom dynamics. Zhang et al. (2024) tested SimClass with 48 college students and found that interactive classmate agents increased engagement and learning for students who enrolled in the course. Xu et al. (2024) also developed over 700 student agents by collecting learning behavior data (e.g., eye movements, mouse movements, cognitive states, and test scores) from 310 students in online courses. Student agents that leveraged ChatGPT successfully replicated the learning behaviors, engagement, cognitive states, and quiz performance of actual students, allowing researchers to track and predict students’ learning behavior. This model found that the agents’ learning patterns matched cognitive science research with curious students having more eye gaze movements and lower quiz performance due to distractions and higher performing students having higher levels of focus and higher quiz grades. Similarly, Gao et al. (2025) created Agent4Edu to simulate student learning behaviors in online education by using over 18,000 learning records in math and science from 500 real students as training data. Gao et al. (2025) tested whether student agents' learning patterns match those of real students and whether the student agents could predict student responses. Findings showed that AgentEdu could successfully simulate real students’ learning patterns and responses and offered insight into better exercises to improve online learning platforms. 
+	Traditional interventions have shown to be effective in improving retention and completion rates, however, if GABM can replicate the experiences of students then researchers can better understand which interventions are the most effective given the resources available. Further, collecting real student data is a time-consuming and expensive process, however, GABM provides higher education researchers the ability to accurately predict real student behaviors such as social engagement, learning outcomes, and academic performance. This approach provides a cost-effective and scalable virtual lab that can hold a vast number of student agents to test the effectiveness of interventions before implementing them in real-world higher education settings. Researchers should take advantage of the flexibility of these models by testing a variety of interventions to explore which are the most effective for long-term success. It is critical for higher education researchers to recognize the potential of artificial intelligence to supplement existing research strategies to create a more equitable and inclusive STEM learning environment for underrepresented students. 
+
+\section*{\textbf{References}
+}
+
+\begin{hangparas}{0.5in}{1}
+
+Agrawal, R. K., Stevenson, M. L., \& Gloster, C. (2016, June). Understanding the reasons for low representation of ethnic minority students in STEM fields. In 2016 ASEE Annual Conference \& Exposition.
+
+Armstrong, M. A., \& Jovanovic, J. (2015). Starting at the crossroads: Intersectional approaches to institutionally supporting underrepresented minority women STEM faculty. Journal of Women and Minorities in Science and Engineering, 21(2). 141-157. https://doi.org/10.1615/JWomenMinorScienEng.2015011275
+
+Bahr, P. R. (2008). Does mathematics remediation work? A comparative analysis of academic attainment among community college students. Research in Higher Education, 49, 420–450. https://doi.org/10.1007/s11162-008-9089-4
+
+Bandura, A., \& Wessels, S. (1997). Self-efficacy (pp. 4–6). Cambridge University Press.
+
+Bates, T., Cobo, C., Mariño, O., \& Wheeler, S. (2020). Can artificial intelligence transform higher education? International Journal of Educational Technology in Higher Education, 17(42), 1-12. https://doi.org/10.1186/s41239-020-00218-x
+
+Bearman, M., Ryan, J., \& Ajjawi, R. (2023). Discourses of artificial intelligence in higher education: A critical literature review. Higher Education, 86(2), 369–385. https://doi.org/10.1007/s10734-022-00937-2
+
+Beasley, M. A., \& Fischer, M. J. (2012). Why they leave: The impact of stereotype threat on the attrition of women and minorities from science, math, and engineering majors. Social Psychology of Education, 15, 427–448. https://doi.org/10.1007/s11218-012-9185-3
+
+Bettencourt, G. M., Manly, C. A., Kimball, E., \& Wells, R. S. (2020). STEM degree completion and first-generation college students: A cumulative disadvantage approach to the outcomes gap. The Review of Higher Education, 43(3), 753–779. https://doi.org/10.1353/rhe.2020.0006
+
+Blackburn, H. (2017). The status of women in STEM in higher education: A review of the literature 2007–2017. Science \& Technology Libraries, 36(3), 235–273. https://doi.org/10.1080/0194262X.2017.1371658
+
+Bonabeau, E. (2002). "Agent-based modeling: Methods and techniques for simulating human systems." Proceedings of the National Academy of Sciences of the United States of America, 99(Suppl 3), 7280-7287.
+
+Carver, S., Van Sickle, J., Holcomb, J. P., Quinn, C., Jackson, D. K., Resnick, A. H., \& Marquard, A. M. (2017). Operation STEM: Increasing success and improving retention among first-generation and underrepresented minority students in STEM. Journal of STEM Education: Innovations and Research, 18(3). 20-29. 
+
+Casad, B. J., Franks, J. E., Garasky, C. E., Kittleman, M. M., Roesler, A. C., Hall, D. Y., \& Petzel, Z. W. (2021). Gender inequality in academia: Problems and solutions for women faculty in STEM. Journal of Neuroscience Research, 99(1), 13–23. https://doi.org/10.1002/jnr.24631
+
+Casad, B. J., Oyler, D. L., Sullivan, E. T., McClellan, E. M., Tierney, D. N., Anderson, D. A., Greeley, P. A., Fague, M. A., \& Flammang, B. J. (2020). Wise psychological interventions to improve gender and racial equality in STEM. Group Processes \& Intergroup Relations, 21(5), 767–787. https://doi.org/10.1177/1368430218767034
+
+Cheryan, S., Ziegler, S. A., Montoya, A. K., \& Jiang, L. (2017). Why are some STEM fields more gender balanced than others? Psychological Bulletin, 143(1), 1–35. https://doi.org/10.1037/bul0000052
+
+Clark Blickenstaff, J. (2005). Women and science careers: Leaky pipeline or gender filter? Gender and Education, 17(4), 369–386. https://doi.org/10.1080/09540250500145072
+
+Crenshaw, K. (1989). Demarginalizing the intersection of race and sex: A Black feminist critique of antidiscrimination doctrine, feminist theory, and antiracist politics. University of Chicago Legal Forum, 1989(8), Article 8.
+
+Crenshaw, K. W. (1994). Mapping the margins: Intersectionality, identity politics, and violence against women of color. In The public nature of private violence (pp. 93–118). Routledge.
+
+Crompton, H., \& Burke, D. (2023). Artificial intelligence in higher education: The state of the field. International Journal of Educational Technology in Higher Education, 20(22), 1-22. https://doi.org/10.1186/s41239-023-00392-8
+
+Dika, S. L., \& D’Amico, M. M. (2016). Early experiences and integration in the persistence of first‐generation college students in STEM and non‐STEM majors. Journal of Research in Science Teaching, 53(3), 368–383. https://doi.org/10.1002/tea.21301
+
+Dong, T., Dong, W., \& Xu, Q. (2022). Agent simulation model of COVID-19 epidemic agent-based on GIS: A case study of Huangpu District, Shanghai. International Journal of Environmental Research and Public Health, 19(16), 1-19. http://10.3390/ijerph191610242   
+
+Ellis, J., Fosdick, B. K., \& Rasmussen, C. (2016). Women 1.5 times more likely to leave STEM pipeline after calculus compared to men: Lack of mathematical confidence a potential culprit. PLOS ONE, 11(7), 1-14. https://doi.org/10.1371/journal.pone.0157447
+
+Estrada, M., Burnett, M., Campbell, A. G., Campbell, P. B., Denetclaw, W. F., Gutiérrez, C. G., Hurtado, S., John, G. H., Matsui, J., McGee, R., Okpodu, C. M., Robinson, T. J., Summers, M. F., Werner-Washburne, M., \& Zavala, M. (2016). Improving underrepresented minority student persistence in STEM. CBE—Life Sciences Education, 15(3). 1-10.  https://doi.org/10.1187/cbe.16-01-0038
+
+Estrada, M., Hernandez, P. R., \& Schultz, P. W. (2018). A longitudinal study of how quality mentorship and research experience integrate underrepresented minorities into STEM careers. CBE—Life Sciences Education, 17(1), 1-13. https://doi.org/10.1187/cbe.17-04-0066
+
+Ferraro, A., Galli, A., La Gatta, V., Postiglione, M., Orlando, G. M., Russo, D., ... \& Moscato, V. (2024, September). Agent-based modelling meets generative AI in social network simulations. In International Conference on Advances in Social Networks Analysis and Mining (pp. 155–170). Springer Nature Switzerland.
+
+Gao, C., Lan, X., Li, N., Yuan, Y., Ding, J., Zhou, Z., \& Li, Y. (2024). Large language models empowered agent-based modeling and simulation: A survey and perspectives. Humanities and Social Sciences Communications, 11(1), 1-24. https://doi.org/10.1057/s41599-024-03611-3 
+
+Gao, W., Liu, Q., Yue, L., Yao, F., Lv, R., Zhang, Z., Wang, H., \& Huang, Z. (2025). Agent4Edu: Generating learner response data by generative agents for intelligent education systems (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2501.10332
+
+Garriott, P. O., Navarro, R. L., \& Flores, L. Y. (2017). First-generation college students’ persistence intentions in engineering majors. Journal of Career Assessment, 25(1), 93–106. https://doi.org/10.1177/1069072716657533
+
+Ghaffarzadegan, N., Majumdar, A., Williams, R., \& Hosseinichimeh, N. (2024). Generative agent‐based modeling: An introduction and tutorial. System Dynamics Review, 40(1). https://doi.org/10.1002/sdr.1761
+
+Gladstone, J. R., \& Cimpian, A. (2021). Which role models are effective for which students? A systematic review and four recommendations for maximizing the effectiveness of role models in STEM. International Journal of STEM Education, 8(59), 1–20. https://doi.org/10.1186/s40594-021-00315-x
+
+Graham, M. J., Frederick, J., Byars-Winston, A., Hunter, A.-B., \& Handelsman, J. (2013). Increasing persistence of college students in STEM. Science, 341(6153), 1455–1456. https://doi.org/10.1126/science.1240487
+
+Grossman, J. M., \& Porche, M. V. (2014). Perceived gender and racial/ethnic barriers to STEM success. Urban Education, 49(6), 698–727. https://doi.org/10.1177/0042085913481364
+
+Guy, B., \& Boards, A. (2019). A seat at the table: Exploring the experiences of underrepresented minority women in STEM graduate programs. Journal of Prevention \& Intervention in the Community, 47(4), 354–365. https://doi.org/10.1080/10852352.2019.1617383
+
+Herrera, F. A., \& Hurtado, S. (2011, April). Maintaining initial interests: Developing science, technology, engineering, and mathematics (STEM) career aspirations among underrepresented racial minority students. In Association for Educational Research Annual Meeting, New Orleans, LA.
+
+Herrmann, S. D., Adelman, R. M., Bodford, J. E., Graudejus, O., Okun, M. A., \& Kwan, V. S. Y. (2016). The effects of a female role model on academic performance and persistence of women in STEM courses. Basic and Applied Social Psychology, 38(5), 258–268. https://doi.org/10.1080/01973533.2016.1209757
+
+Hill, C., Corbett, C., \& St. Rose, A. (2010). Why so few? Women in science, technology, engineering, and mathematics. American Association of University Women.
+
+Hurtado, S., Newman, C. B., Tran, M. C., \& Chang, M. J. (2010). Improving the rate of success for underrepresented racial minorities in STEM fields: Insights from a national project. New Directions for Institutional Research, 2010(148), 5–15. https://doi.org/10.1002/ir.357
+
+Jensen, L. X., Buhl, A., Sharma, A., \& Bearman, M. (2024). Generative AI and higher education: A review of claims from the first months of ChatGPT. Higher Education. https://doi.org/10.1007/s10734-024-01265-3
+
+Kanny, M., Sax, L. J., \& Riggers-Piehl, T. A. (2014). Investigating forty years of STEM research: How explanations for the gender gap have evolved over time. Journal of Women and Minorities in Science and Engineering, 20(2). 
+https://doi.org/10.1615/JWomenMinorScienEng.2014007246
+Koch, R., Kucsera, J., Angus, K. B., Norman, K., Bowers, E., Nair, P., \& Barua, S. (2018). Enhancing learning power through first-year experiences for students majoring in STEM disciplines. Journal of STEM Education, 19(1), 22-30.
+
+Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., \& Iwasawa, Y. (2022). Large language models are zero-shot reasoners. Advances in Neural Information Processing Systems, 35, 22199–22213.
+
+Lane, T. B., Morgan, K., \& Lopez, M. M. (2020). “A bridge between high school and college”: A case study of a STEM intervention program enhancing college readiness among underserved students. Journal of College Student Retention: Research, Theory \& Practice, 22(1), 155–179. https://doi.org/10.1177/1521025117729824
+
+Lee, M. J., Collins, J. D., Harwood, S. A., Mendenhall, R., \& Huntt, M. B. (2020). “If you aren’t White, Asian, or Indian, you aren’t an engineer”: Racial microaggressions in STEM education. International Journal of STEM Education, 7, 1–16.
+
+Lent, R. W., Brown, S. D., \& Hackett, G. (1994). Toward a unifying social cognitive theory of career and academic interest, choice, and performance. Journal of Vocational Behavior, 45, 79–122.
+
+Li, H., Yu, J., Cong, X., Dang, Y., Zhan, Y., Liu, H., \& Liu, Z. (2025). Exploring LLM-based student simulation for metacognitive cultivation. arXiv preprint arXiv:2502.11678. 
+
+Li, Z., Cao, Y., Xu, X., Jiang, J., Liu, X., Teo, Y. S., ... \& Liu, Y. (2024, April). LLMs for relational reasoning: How far are we? In Proceedings of the 1st International Workshop on Large Language Models for Code (pp. 119–126). https://doi.org/10.1145/3643795.3648387
+
+Liu, Z., Yin, S. X., Lin, G., \& Chen, N. F. (2024). Personality-aware student simulation for conversational intelligent tutoring systems. arXiv preprint arXiv:2404.06762. 
+
+Marco‐Bujosa, L. M., Baker, L., \& Malott, K. M. (2024). “Why am I here?”: A phenomenological exploration of first‐generation college student experiences in STEM majors within a predominantly white institution. Journal of Research in Science Teaching, 61(4), 905–936. https://doi.org/10.1002/tea.21911
+
+Markle, R. S., Williams, T. M., Williams, K. S., deGravelles, K. H., Bagayoko, D., \& Warner, I. M. (2022). Supporting historically underrepresented groups in STEM higher education: The promise of structured mentoring networks. Frontiers in Education, 7, 674669. https://doi.org/10.3389/feduc.2022.674669
+
+Martineau, K. (2023, April 20). What is generative AI? IBM Research. https://research.ibm.com/blog/what-is-generative-AI
+
+McGee, E. O. (2016). Devalued Black and Latino racial identities: A by-product of STEM college culture? American Educational Research Journal, 53(6), 1626–1662. https://doi.org/10.3102/0002831216676572
+
+Michel-Villarreal, R., Vilalta-Perdomo, E., Salinas-Navarro, D. E., Thierry-Aguilera, R., \& Gerardou, F. S. (2023). Challenges and opportunities of generative AI for higher education as explained by ChatGPT. Education Sciences, 13(9), 856. https://doi.org/10.3390/educsci13090856
+
+Moakler, M. W., \& Kim, M. M. (2014). College major choice in STEM: Revisiting confidence and demographic factors. The Career Development Quarterly, 62(2), 128–142. https://doi.org/10.1002/j.2161-0045.2014.00075.x
+
+National Center for Science and Engineering Statistics (NCSES). (2021). STEM median wage and salary earnings. In Diversity and STEM: Women, minorities, and persons with disabilities (NSF 23-315). https://ncses.nsf.gov/pubs/nsf23315/report/stem-median-wage-and-salary-earnings
+
+Neumann, M., Rauschenberger, M., \& Schön, E.-M. (2023). “We need to talk about ChatGPT”: The future of AI and higher education. 2023 IEEE/ACM 5th International Workshop on Software Engineering Education for the Next Generation (SEENG), 29–32. https://doi.org/10.1109/SEENG59157.2023.00010
+
+O’Brien, L. T., Garcia, D. M., Blodorn, A., Adams, G., Hammer, E., \& Gravelin, C. (2020). An educational intervention to improve women’s academic STEM outcomes: Divergent effects on well-represented vs. underrepresented minority women. Cultural Diversity \& Ethnic Minority Psychology, 26(2), 163–168. https://doi.org/10.1037/cdp0000289
+
+Ong, M., Smith, J. M., \& Ko, L. T. (2018). Counterspaces for women of color in STEM higher education: Marginal and central spaces for persistence and success. Journal of Research in Science Teaching, 55(2), 206–245. https://doi.org/10.1002/tea.21417
+
+Ortiz-Martínez, G., Vázquez-Villegas, P., Ruiz-Cantisani, M. I., Delgado-Fabián, M., Conejo-Márquez, D. A., \& Membrillo-Hernández, J. (2023). Analysis of the retention of women in higher education STEM programs. Humanities and Social Sciences Communications, 10(1), 1–14. https://doi.org/10.1057/s41599-023-01588-z
+
+Oyelaran, O. (2023). Improving persistence of underrepresented racial minority science majors: Where to begin. Frontiers in Education, 8, 1280609. https://doi.org/10.3389/feduc.2023.1280609
+
+Park, J. S., O'Brien, J., Cai, C. J., Morris, M. R., Liang, P., \& Bernstein, M. S. (2023, October). Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual acm symposium on user interface software and technology (pp. 1-22).
+
+Park, J. S., Zou, C. Q., Shaw, A., Hill, B. M., Cai, C., Morris, M. R., Willer, R., Liang, P., \& Bernstein, M. S. (2024). Generative agent simulations of 1,000 people. arXiv preprint arXiv:2411.10109. 
+
+Ramsey, L. R., Betz, D. E., \& Sekaquaptewa, D. (2013). The effects of an academic environment intervention on science identification among women in STEM. Social Psychology of Education, 16(3), 377–397. https://doi.org/10.1007/s11218-013-9218-6
+
+Reuben, E., Sapienza, P., \& Zingales, L. (2014). How stereotypes impair women’s careers in science. Proceedings of the National Academy of Sciences, 111(12), 4403–4408. https://doi.org/10.1073/pnas.1314788111
+
+Riegle-Crumb, C., King, B., \& Irizarry, Y. (2019). Does STEM stand out? Examining racial/ethnic gaps in persistence across postsecondary fields. Educational Researcher, 48(3), 133–144. https://doi.org/10.3102/0013189X19831006
+
+Rincon, B. E., \& George-Jackson, C. E. (2016). STEM intervention programs: Funding practices and challenges. Studies in Higher Education, 41(3), 429–444. https://doi.org/10.1080/03075079.2014.927845
+
+Rittmayer, A. D., \& Beier, M. E. (2008). Overview: Self-efficacy in STEM. SWE-AWE CASEE Overviews, 1(3), 1–12.
+
+Sebastián-Tirado, A., Félix-Esbrí, S., Forn, C., \& Sanchis-Segura, C. (2023). Are gender-science stereotypes barriers for women in science, technology, engineering, and mathematics? Exploring when, how, and to whom in an experimentally-controlled setting. Frontiers in Psychology, 14, 1219012.
+
+Sithole, A., Chiyaka, E. T., McCarthy, P., Mupinga, D. M., Bucklein, B. K., \& Kibirige, J. (2017). Student attraction, persistence, and retention in STEM programs: Successes and continuing challenges. Higher Education Studies, 7(1), 46. https://doi.org/10.5539/hes.v7n1p46
+
+Soldner, M., Rowan-Kenyon, H., Inkelas, K. K., Garvey, J., \& Robbins, C. (2012). Supporting students’ intentions to persist in STEM disciplines: The role of living-learning programs among other social-cognitive factors. The Journal of Higher Education, 83(3), 311–336. https://doi.org/10.1080/00221546.2012.11777246
+
+Southworth, J., Migliaccio, K., Glover, J., Reed, D., McCarty, C., Brendemuhl, J., \& Thomas, A. (2023). Developing a model for AI across the curriculum: Transforming the higher education landscape via innovation in AI literacy. Computers and Education: Artificial Intelligence, 4, 100127. https://doi.org/10.1016/j.caeai.2023.100127
+
+Thompson, M. E. (2021). Grade expectations: The role of first-year grades in predicting the pursuit of STEM majors for first- and continuing-generation students. The Journal of Higher Education, 92(6), 961–985. https://doi.org/10.1080/00221546.2021.1907169
+
+Van Den Hurk, A., Meelissen, M., \& Van Langen, A. (2019). Interventions in education to prevent STEM pipeline leakage. International Journal of Science Education, 41(2), 150–164. https://doi.org/10.1080/09500693.2018.1540897
+
+Verdin, D., \& Godwin, A. (2015). First in the family: A comparison of first-generation and non-first-generation engineering college students. 2015 IEEE Frontiers in Education Conference (FIE), 1–8. https://doi.org/10.1109/FIE.2015.7344359
+
+Vezhnevets, A. S., Agapiou, J. P., Aharon, A., Ziv, R., Matyas, J., Duéñez-Guzmán, E. A., \& Leibo, J. Z. (2023). Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia. arXiv preprint arXiv:2312.03664. 
+
+Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W.,  \& Wen, J. (2024). A survey on large language model-based autonomous agents. Frontiers of Computer Science, 18(6), 1-26. https://doi.org/10.1007/s11704-024-40231-1
+
+Wilson, Z. S., Holmes, L., deGravelles, K., Sylvain, M. R., Batiste, L., Johnson, M., McGuire, S. Y., Pang, S. S., \& Warner, I. M. (2012). Hierarchical mentoring: A transformative strategy for improving diversity and retention in undergraduate STEM disciplines. Journal of Science Education and Technology, 21(1), 148–156. https://doi.org/10.1007/s10956-011-9292-5
+
+Wright, A. L., Roscigno, V. J., \& Quadlin, N. (2023). First-generation students, college majors, and gendered pathways. The Sociological Quarterly, 64(1), 67–90. https://doi.org/10.1080/00380253.2021.1989991
+
+Xu, S., Zhang, X., \& Qin, L. (2024). EduAgent: Generative student agents in learning. arXiv preprint arXiv:2404.07963. https://arxiv.org/abs/2404.07963
+
+Xu, Y. J. (2008). Gender disparity in STEM disciplines: A study of faculty attrition and turnover intentions. Research in Higher Education, 49(7), 607–624. https://doi.org/10.1007/s11162-008-9097-4
+
+Zawacki-Richter, O., Marín, V. I., Bond, M., \& Gouverneur, F. (2019). Systematic review of research on artificial intelligence applications in higher education – where are the educators? International Journal of Educational Technology in Higher Education, 16(1), 39. https://doi.org/10.1186/s41239-019-0171-0
+
+Zhang, Z., Zhang-Li, D., Yu, J., Gong, L., Zhou, J., Hao, Z., Jiang, J., Cao, J., Liu, H., Liu, Z., Hou, L., \& Li, J. (2024). Simulating classroom education with LLM-empowered agents (arXiv: 2406.19226). arXiv. https://doi.org/10.48550/arXiv.2406.19226
+
+\end{hangparas}
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+
+\textbf{
+\section{Methods}
+}
+
+This research study is guided by the work of Park et al. (2024), who created and trained LLM-based generative agents based on data from 1,000 individuals. Park et al. (2024) interviewed and surveyed participants to develop agents that replicated the participants' personalities, reasoning and decision-making processes, and behaviors. Participants represented a diverse group of demographics and participated in a 2-hour interview with an AI interviewer and completed the General Social Survey and the Big Five Personality Inventory. Park et al. (2024) found that interview transcripts were the most effective in training the generative agents to simulate reliable attitudes, behaviors, and thought processes of the participants. Findings showed that the agents replicated participants’ attitudes and behaviors with 85\% accuracy. Interestingly, the agents matched participants' answers to the survey as closely as participants matched their answers when they retested two weeks later. 
+\textbf{\subsection{Generative Agent Architecture}}
+\textbf{\textit{\subsubsection{Agent Characterization, Memory, and Retrieval}}}
+Agent characterization is the first phase of the study where agent profiles and personas are created to reflect the participants in the study (Ferraro et al., 2024). Profiles include information such as age, gender, occupation, goals, personality traits, and relationship parameters to define how agents will interact with one another (Wang et al., 2024). Generative agents can store and recall experiences, interactions, observations, and other information within a memory stream or vector database (Ferraro et al., 2024). Agents draw from these stored memories to inform their decision-making and behaviors (Gao et al. 2024). In other words, decisions and actions are made through reasoning and recalling and are not made at random. However, LLMs have a limited prompt context window, which makes it challenging to include the entire memory stream in a single prompt. In response, Park et al. (2023) suggest filtering which memories to include by assigning each memory a score based on recency, relevance, and importance. Recency refers to how recent the memory is and gives a higher score to recent events. To calculate relevance, the prompt or query and the memories are stored in vector embeddings, and the cosine similarity is calculated to see how similar the query and memory are in meaning. Cosine similarity scores close to 1.0 indicate strong similarity. Finally, importance is rated by the LLM on a scale of 1 to 10, with 10 being highly important to the query. An overall score combining recency, relevance, importance, and memories is calculated and those with the highest scores are retrieved by the LLM in response to the query. This method prevents an overload of information for the LLM to process and ensures that the LLM is drawing from appropriate memories before reacting (Ferraro et al., 2024). 
+\subsubsection{\textbf{Short-term and Long-term Memory. }}
+	Currently, LLMs cannot store information long-term. Instead, LLMs have short-term memory, also known as working memory, which includes the information in the current chat session. However, once the chat session ends, the chat history does not persist between chats, so the memory is lost (Vezhnevets et al., 2023). However, LLMs can store data or long-term memories through a dense vector embedding database and access them as needed. The LLM will not retrieve every memory stored in the database but will calculate a cosine similarity to decipher which memories are most relevant to the query. 
+	Because agents are powered by LLMs, the system prompt will provide the necessary information to guide the agent’s behavior. The agent will use a retrieval function to access memories in response to prompts. To create autonomous agents, a looping function is used so agents can continuously store memories, retrieve memories, process information, and act until the condition or goal is satisfied or reaches the maximum number of iterations specified. This study will use a SQL database to store and retrieve long-term agent memories. Long-term memory is critical to creating adaptive agents to access and infer from past experiences to guide behaviors and improve decision-making over time. 
+\subsubsection{\textbf{\textit{Reflection}}}
+According to Park et al. (2023), agents cannot infer from observational data alone but can generate insights by identifying patterns and connections across experiences through reflection. In Park et al. 's (2023) study, reflections were only generated when the sum of importance scores for recent events reached or exceeded a threshold of 150. To reflect, the LLM analyzes stored memories, retrieves relevant memories, and generates high-level takeaways from those memories based on the query. Original memories and reflections are stored for future use. Reflections are critical as they allow agents to derive important insights from their experiences, just as a human would. As agents create more memories through experience, they synthesize and reflect on past experiences, which shape their relationships, environments, and future decision-making (Gao et al., 2024). 
+\textbf{\textit{
+\subsubsection{Planning and Reacting}
+}}
+Planning and reacting are not predetermined actions in GABM. Agents have the ability to learn from their actions by synthesizing and reflecting on memories over time. Planning with feedback involves an internal feedback loop function that allows agents to plan and react dynamically to mimic human-like reasoning, decision-making, and behaviors (Park et al., 2023; Wang et al., 2024). This iterative feedback loop works because agents break complex tasks down into manageable steps and look for patterns in the data to refine their plan after seeing the results of their actions (Gao et al., 2024; Wang et al., 2024). Wang et al. (2024) describes planning with model feedback as appropriate for complex, long-range reasoning tasks since it uses output, feedback, and refinement saying, 
+Firstly, the agent generates an output. Then, it utilizes LLMs to provide feedback on the output and offer guidance on how to refine it. At last, the output is improved by the feedback and refinement. This output-feedback refinement process iterates until reaching some desired condition (p. 13). 
+	Action is the final step in the agent’s reasoning process. Agents will identify an action goal, recall plans and relevant memories, generate and complete an action, receive and evaluate LLM feedback from the results of that action, and iterate until the task conditions are met (Wang et al., 2024).  According to Park et al. (2023), 
+Generative agents operate in an action loop where, at each time step, they perceive the world around them and those perceived observations are stored in their memory stream. We prompt the language model with these observations to decide where the agent should continue with their existing plan or react (p. 11). 
+Iterative feedback loops result in actions continually refining agent decisions and behaviors over time through experiential trial-and-error learning and gaining new insights and perspectives (Wang et al., 2024; Zhou et al., 2024). 
+\textbf{\textit{
+\subsubsection{Fine-tuning}
+}} 
+LLMs are pre-trained on vast amounts of natural language corpora (Chen et al., 2024). Rather than relying solely on the LLM to provide the outputs, fine-tuning incorporates an additional smaller dataset specific to the study’s context (Suh et al., 2025; Wang et al., 2024). Including such datasets can produce more competent and reliable agent simulations. Fine-tuning the agent can ensure that agents are trained on applicable real-world examples and data so agent behavior is realistic. Fine-tuning allows the agent to gain knowledge and skills specific to the study rather than relying solely on huge pre-trained datasets used in LLMs. Fine-tuning allows the agent to gain knowledge and skills in specialized areas using real-world data to create reliable generative agents. Using specialized real-world data for fine-tuning can generate more accurate and reliable generative agents. 
+\textbf{
+\subsection{Research Approach}
+}
+	Women, racial minority groups, first-generation students, and students from low socioeconomic backgrounds remain consistently underrepresented in STEM higher education (Agrawal et al., 2016; Beasley \& Fischer, 2012; Bettencourt et al., 2020; Hill et al., 2020; Rittmayer \& Beier, 2008). Their underrepresentation remains a persistent issue that higher education administrators and policymakers must address to improve diversity in STEM fields. This study aims to explore whether LLM-driven generative agent simulations can accurately replicate real student experiences and predict the impact of targeted interventions in a scalable and cost-effective way. More specifically, this study will use GABM to simulate and examine the effects of a peer mentoring intervention on first-year engineering students’ self-efficacy. Existing literature shows that peer mentoring can improve self-efficacy in STEM students (Markle et al., 2022; Van Den Hurk). If this study successfully simulates and validates the effects of a peer mentoring program on first-year engineering students’ self-efficacy, higher education researchers could use GABM to evaluate the effects of countless other interventions before implementing them in the real-world. 
+\textbf{
+\subsection{Participant Recruitment and Data Collection}
+}
+This study will use LLMs to simulate the interactions between first-year undergraduate engineering students and upper-level engineering peer mentors. A primary objective of peer mentorship is to connect incoming students with upper-level students to ease their transition into college. Peer mentors support incoming first-year students by sharing their experiences and insights on majors, classes, campus involvement opportunities, internships, study abroad, and research opportunities. By offering guidance on study skills, time management, leadership, and professional development, peer mentorship programs aim to help incoming students develop valuable relationships and necessary skills to succeed in their degree program. 
+This study will employ a mixed-methods approach to examine the effectiveness of peer mentoring on the academic self-efficacy of underrepresented first-year engineering students. Participants will include 8 to 12 underrepresented first-year engineering students (e.g., women, first-generation, low-income, racial minority students) and 4 or 5 engineering peer mentors (e.g., upper-level engineering students) recruited through email announcements to the engineering undergraduate listserv and engineering student organizations. Students who are not first-year undergraduates majoring in engineering or have not participated in the mentoring program will not be included in the study. Additionally, peer mentor participants must be upper-division engineering students and be a designated peer mentor for first-year students. While this pilot study has a small sample size, the focus of the study is on gaining high quality, in-depth data which can outperform models trained on larger and less detailed datasets (Park et al., 2024). The study will be conducted at a large public research university in the Southeastern U.S., which offers a peer mentoring program within its engineering department. 
+Data collection will take place in three phases, including distributing surveys, conducting semi-structured interviews, and creating generative agent simulations. The study will be conducted over the entire fall semester, which lasts approximately 16 weeks. I will use stratified sampling to ensure representation across student demographics to ensure a balanced representation. First, first-year engineering student participants will complete a survey measuring their academic self-efficacy and intention to persist in their major. Initial surveys will also collect demographic information such as age, gender, race/ethnicity, first-generation status, Pell eligibility, and major of study. The survey will also include questions on the frequency of mentor-mentee interactions and the content of meetings (e.g., academic tutoring, social adjustment strategies, professional development, and student organization involvement opportunities), and perceived levels of academic self-efficacy. Students will complete a follow up survey during week 14.  
+Next, participants will be asked to participate in an hour-long semi-structured interview, which will cover students’ educational background and experiences (e.g., the reasoning for selecting a STEM degree, math, and science preparation in high school), expectations and perceptions of college, peer mentorship experiences, and personal reflections. Additionally, I will interview peer mentors to gain insight into their mentoring practices, perceptions of student challenges, and the effectiveness of mentoring relationships on student self-efficacy. Using in-depth interviews provides rich contextual data about participants’ attitudes, behaviors, and beliefs and offers detailed information about participants that surveys and demographic data may not accurately capture (Fontana \& Frey, 2005). Finally, fully transcribed interviews will be fed into the LLM to train and generate agent simulations to examine the effectiveness of peer mentoring on student self-efficacy and intention to persist in their major. According to Park et al. (2024), interview-based agents outperformed other agents in predicting behavior, such as demographic-based agents created solely on demographic data or persona-based agents based on self-written short biographies. Thus, conducting interviews with students and peer mentors is necessary to the aims of this research. 
+\textbf{
+\subsection{Study Implementation}
+}
+Using data from student surveys and interviews, I will use Python to generate agents and simulate the interactions between first-year engineering students and engineering peer mentors. I will not rely on a single LLM but will replicate simulations in at least one open-source model (e.g., Llama 3.3) and compare outcomes to GPT-4/4o. If there are any significant inconsistencies across models, I will explore further to ensure that one LLM does not cause the outcomes. Guided by Park et al. (2023, 2024), each agent will have a profile or persona as well as a memory bank derived from interview and survey responses (Wang et al., 2024). Agent profiles will mimic the characteristics of the study’s participants, which improves accuracy since agents are similar to the study’s participants (Wang et al., 2024). 
+A peer mentorship intervention will be simulated with varying levels of interaction between the peer mentor and first-year engineering student agents. A low level of interaction includes 1-2 meetings per month, a medium level of interaction includes 3-4 meetings per month, and a high level includes weekly meetings. Within each interaction, student agents will reproduce the interactions between peer mentors and mentees based on topics like effective study skills, course planning, and social and professional engagement opportunities. 
+The LLM, trained on interview transcript and survey data, will “think” as if it were the participant based on the information it is given. The agents will be asked to participate in “what if” scenarios, allowing me to test and examine interactions between mentees and mentors to understand the effectiveness of the intervention within a controlled environment. This generative agent-based model will allow me to identify challenges that underrepresented students face in STEM and assess the impact of peer mentorship for underrepresented student groups in engineering majors. The overarching goal is to replicate real student reactions and behaviors within mentoring interactions and assess how varying levels of intervention engagement impact student academic self-efficacy. The data from the simulation will include students’ perceptions of confidence in coursework and persistence in their program. I will conduct multiple simulations using random seeds and a vector database to store memories. Models will use memory retrieval and summarization to help agents recall and learn from past interactions to avoid information overload. The simulated outputs will be compared to those of real students to validate the accuracy of the simulation.
+\textbf{
+\subsubsection{\textit{}{Technical Approach}}
+}
+Each agent (mentee or mentor) will have a persona or profile based on actual participant data (e.g., surveys and interviews). The mentee agent profiles will include demographic information (e.g., first-generation Latina woman, low income), academic goals (e.g., passing Calculus I, finding a sense of community), and challenges (e.g., anxiety about taking advanced math classes). Mentor agent profiles will include background characteristics (e.g., Senior mechanical engineering student, overcame challenges with taking Calculus and Physics) and reasons for becoming a mentor (e.g., Likes to help mentees navigate their first year). These agent profiles (e.g., Pseudonym name, gender, race/ethnicity, first-generation status, goals, challenges, survey results on self-efficacy beliefs, role as mentee or mentor, and key traits) will be saved in JSON files and implemented into the LLM prompt alongside memories that will guide the agents’ thoughts and actions. 
+ Each agent will have a memory bank that embeds and stores memories within a SQL vector database. Memories will include individual events (e.g.," I attended my first lab session and felt overwhelmed;” “I attended a mentor study group and reviewed physics homework.”), facts (e.g., "Office hours take place on Tuesdays at 10:00 a.m.; peer mentors meet on Wednesday afternoons."), and reflections or summaries of memories that impact feelings of self-efficacy (e.g., "After two mentoring sessions with my mentor, I believe I can improve my math skills;” “I’m starting to feel more confident after my mentor shared her experiences.”). 
+ 	The simulation will include scheduled events like recurring classes, assignment deadlines, upcoming exams, and meetings with their mentor. It will also include impromptu events like social invitations from classmates, pop quizzes, and personal setbacks. The simulation will run in a weekly loop where mentees and mentors will have experiences, retrieve relevant memories, and make decisions. For example, if a mentee has an upcoming Calculus I exam, she may ask whether she should attend her mentor’s study session. The memory seed will range from 5 to 10 based on the similarity of memories to the query. The prompt will take all existing information and run through the LLM, which will describe the agent’s action, emotional state, and reasoning (e.g., “I will text my mentor right now because I’m nervous about the upcoming exam and need help.”). The LLM output will be stored as a memory in the vector database (e.g., “I contacted my mentor at 4pm and reviewed practice problems. Now I feel a little bit more confident.”). 
+At times the memory may cause the agent to reflect on the experience and store a reflection. In Park et al.’s (2024) study, agents would reflect when the sum of importance scores reached a threshold of 150, but this threshold number was based on a much larger participant sample of 1,000 participants who generated hundreds of memories. Given the smaller sample size of this pilot study and fewer number of memories generated, the reflection threshold will be adjusted accordingly. This study will have 8 to 12 mentees and 4 to 5 mentors, so around 15 agents total with each simulation running for 8 to 10 weeks which will generate an estimated 50 to 100 memories per agent. Assuming that each agent will generate around 10 highly important memories (e.g., rated above a 7 in importance) and multiplying by 10 memories by the average importance score of 7 gives a threshold score of 70 importance points. This ensure that agents will accumulate a meaningful memories before reflecting on those memories. 
+\subsection{\textbf{Validation Measures}}
+Prior studies compared simulation results against participant data to ensure that outcomes were realistic and not random (Gao et al., 2024; Vezhnevets et al., 2023). Li et al. (2025) recommend that human experts engage with simulated students to see how well the agent's behavior aligns with its profile and assess how realistic the simulation and quality of responses are. Park et al. (2024) found that interview data achieved higher accuracy in predicting responses than only using participant demographic data or short self-descriptions of participants. Park et al. (2024) used a test-and-retest approach with participants who took a survey and then retook the same survey two weeks later to measure the consistency of participants' responses over time. The participants' consistency in their responses acted as a baseline for normalizing the agents' accuracy in their responses. Park et al. (2024) achieved an 85\% normalized accuracy rate, highlighting that agents can closely match participants' responses over time compared to the participant's consistency in responses. Similarly, Ghaffarzadegan et al. (2024) re-ran the same experiment after 20 days to see if the findings stayed consistent. While the findings remained consistent, there were slight variations in agent responses due to the random nature of LLM outputs. Additionally, Ghaffarzadegan et al. (2024) altered the wording of prompts entered into the LLM to see if it affected agent responses. Findings showed that outputs differed when social norms were stated earlier in the prompt compared to entering personal preferences first. 
+\textbf{
+\subsection{Sensitivity Analysis}
+}
+
+% there are two sensitivity analyses!!!
+
+
+This simulation cycle will continue weekly until the simulation has run multiple times using different random seeds to see how results change or same the same. By setting a specific random seed, I can ensure that the simulation outputs the same results each time the simulation runs, allowing me to compare results between different LLMs. Ghaffarzadegan et al. (2024) recommends running multiple simulations using different random seed values to assess the robustness and consistency of findings. 
+\subsubsection{\textbf{\textit{Reliability between Agents and Participants}}}
+	To ensure that the generative agent outputs reliably capture real student participants’ responses and experiences with their perceptions of academic self-efficacy, I will gather pre/post-survey self-efficacy scores from student participants. For example, a survey question may measure students’ confidence in succeeding in an engineering course using a 5-point Likert scale. I will also prompt the agent to answer the same question using the same scale. After asking both the students and the agents to answer the same pre/post survey questions,  I will calculate a Pearson correlation to see if real students’ self-efficacy scores align with the agents’ scores. High correlation coefficients (e.g., 0.7 or above) show that the agents’ responses are in line with the participant responses. 
+\subsubsection{\textbf{\textit{Validity between Agents and Participants}}}
+	To see how well the simulated intervention captures the actual effect of peer mentoring among student participants, I will also do a comparison of Cohen's d effect sizes for pre/post change in self-efficacy after the mentoring interventions for both the mentee participants and the simulated mentees. Similar and positive effect sizes will support construct validity and show that the mentoring intervention has similar effects for the participants in the study and the agents in the simulation. High and statistically significant correlations and similar effect sizes will provide additional evidence that the LLM-based simulations reliably reflect the intervention's student experiences and effects. 
+\subsubsection{\textbf{\textit{Sentence Embeddings and Cosine Similarity Analysis}}}
+Sentence embeddings and cosine similarity analysis will measure how closely agent and actual student responses are semantically aligned. 
+I will take open-ended responses from student participants and agents and use BERT to create embeddings for each response to compute the cosine similarity between those emeddings. Cosine similiarity scores close to 1.0 show identical meaning between the responses, scores from above 0.50 show strong similarity, and those below 0.50 are not very similar in meaning. This will allow me to assess whether agents talk and think like students. 
+ I will calculate and analyze the cosine similarity between agent and student responses to the same open-ended survey questions. I will begin by normalizing the data, tokenizing the data, and removing stop words. I will complete sentence embedding using BERT to create a numerical vector representation for each agent and student response (Mikolov et al., 2013).  Next, I will calculate cosine similarity scores between agent and student responses to assess the similarity or dissimilarity between embedded response vectors. Cosine similarity scores range from -1 (complete dissimilarity) to 1 (complete similarity), with scores closer to 1 indicating high semantic similarity between vectors. Cosine similarity scores above 0.7 will indicate strong similarity between agent and student responses. 
+In sum, I will use three validation methods to establish the reliability and validity of the generative agent simulations. First, I will use a Pearson correlation analysis to compare agent and student participant responses on the pre-and-post survey responses on academic self-efficacy. High correlations will show that agents can reliably replicate students’ numeric-based survey responses. Next, I will use Cohen’s d effect sizes to assess the change in self-efficacy before and after the mentoring intervention for student participants and agents. Similar effect sizes address construct validity, showing that the intervention has similar results and impacts on students and agents. Finally, I will compute a cosine similarity analysis using BERT to assess the semantic similarity of open-ended responses between students and agents. Cosine similarity scores above 0.50 will show strong alignment in semantic meaning between students and agents. To establish interval validity, I am using real student survey and interview data to train agents, comparing agent responses to those of students, calculating correlation and effect sizes between students and agents. I will ensure that the simulation only varies the level of mentoring that students are receiving since this is what we are testing. Because this study has a smaller sample, external validity is not a primary objective but it will establish GABM as an effective method to exploring intervention outcomes. Additionally, stratified sampling does provide balanced representation of student demographics which enhances external credibility. 
+\textbf{
+\subsection{Sensitivity Analysis}
+}
+To assess the robustness of the simulation model, a sensitivity analysis will be conducted by varying mentoring frequency (low, medium, high) and the reflection threshold (50, 70, 90) to see whether these changes influence agent’s self-efficacy outcomes. I will use random seeds to evaluate how the model performs across different simulation runs. 
+\textbf{
+\subsection{Ethical Considerations}
+}
+Despite the ground-breaking use of generative agent-based modeling research, it is not without limitations or ethical concerns. LLMs are trained on massive amounts of data, which could include biases against vulnerable populations, and LLM-generated responses could reflect such biases (Li et al., 2025). These models could introduce stereotypes about underrepresented student groups and should be regularly checked for fair and unbiased outputs. Gao et al. (2024) recommend prompt engineering and fine-tuning to prevent biased outputs. Prompt engineering gives LLMs clear and concise instructions and specific examples for agents to follow to complete tasks. Fine-tuning involves training the LLM on real-world data specific to the study to improve the reliability and accuracy of outputs. 
+Ultimately, generative agent-based modeling is designed to supplement, not replace, human research. Therefore, I will prompt and fine-tune the LLM with specific instructions and examples and monitor LLM outputs regularly. I will ask my committee members to review and evaluate outputs to mitigate the risks of bias. Additionally, before implementing this study, I will receive approval from the Institutional Review Board (IRB) and informed consent from participants. I will clearly explain the nature of the study and the data collection process. Participants will be able to stop participation at any time for any reason. I will ensure participant data is anonymized to ensure participant anonymity and privacy. Participants will be compensated for their participation in the study. 
+\textbf{
+\subsection{Study Limitations }
+}
+Agents should accurately interpret experiences, interactions, and surroundings to exhibit realistic reasoning and decision-making (Gao et al., 2024; Vezhnevets et al., 2023; Xu et al., 2024). Currently, GABMs are better at reacting in a consistent than dynamic way, but agents can learn over time (Li et al., 2025). According to Gao et al. (2024), although agent-based simulations can adapt and react to changes in their environment, they struggle to manage complex tasks or scenarios requiring long-term planning. Currently, generative agent simulations require extensive computational power and processing speed and have a limited ability to predict the outcomes of their actions to achieve long-term goals. This could be a potential limitation of GABM as real students have unique needs that LLMs may not fully grasp due to these limitations. The AI model may learn student patterns specific to individual students but given the small sample size, it will not be generalizable to all underrepresented students. 
+\textbf{
+\subsection{Conclusion}
+}
+While this study focuses on the impacts of peer mentoring for engineering students, it is critical to understand that an LLM-based approach enables higher education researchers the ability to test and evaluate the impact of countless interventions before real-world implementation. Traditional interventions can require extensive financial, time, and resource commitments. Thus, higher education researchers can use agent simulations to understand the potential short-term and long-term impacts of numerous interventions within a low-cost, low-risk environment. Simulations allow higher education researchers the ability to assess the outcomes of a variety of interventions before deciding which to implement. 
+
+\%I think Rachel is only fine-tuning using a zero- or one-shot model, so we may not need as much data as we usually do for training. Essentially, we're modifying the behavior of an already functional agent by using some of the data she's providing in the final layer.
+
+
+
+
+
+
+
+
+
+
+
+\section*{\textbf{References}
+}
+\begin{hangparas}{0.5in}{1}
+Agrawal, R. K., Stevenson, M. L., \& Gloster, C. (2016, June). Understanding the reasons for low representation of ethnic minority students in STEM fields. In 2016 ASEE Annual Conference \& Exposition.
+
+Beasley, M. A., \& Fischer, M. J. (2012). Why they leave: The impact of stereotype threat on the attrition of women and minorities from science, math, and engineering majors. Social Psychology of Education, 15, 427–448. https://doi.org/10.1007/s11218-012-9185-3
+
+Bettencourt, G. M., Manly, C. A., Kimball, E., \& Wells, R. S. (2020). STEM degree completion and first-generation college students: A cumulative disadvantage approach to the outcomes gap. The Review of Higher Education, 43(3), 753–779. https://doi.org/10.1353/rhe.2020.0006
+
+Chen, Z., Liu, K., Wang, Q., Zhang, W., Liu, J., Lin, D., Chen, K., \& Zhao, F. (2024). Agent-FLAN: Designing data and methods of effective agent tuning for large language models. arXiv preprint arXiv:2403.12881.
+
+Dong Q et al. (2022) A survey for in-context learning. arXiv preprint arXiv:2301.00234 (2022)
+
+Fontana, A., \& Frey, J. H. (2005). The interview. The Sage handbook of qualitative research, 3(1), 695-727.
+
+Ferraro, A., Galli, A., La Gatta, V., Postiglione, M., Orlando, G. M., Russo, D., Riccio, G., Romano, A., \& Moscato, V. (2024, September). Agent-based modelling meets generative AI in social network simulations. In International Conference on Advances in Social Networks Analysis and Mining (pp. 155–170). Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-78541-210
+
+Gao, C., Lan, X., Li, N., Yuan, Y., Ding, J., Zhou, Z., \& Li, Y. (2024). Large language models empowered agent-based modeling and simulation: A survey and perspectives. Humanities and Social Sciences Communications, 11(1), 1-24. https://doi.org/10.1057/s41599-024-03611-3
+
+Ghaffarzadegan, N., Majumdar, A., Williams, R., \& Hosseinichimeh, N. (2024). Generative agent‐based modeling: An introduction and tutorial. System Dynamics Review, 40(1). 1-29. https://doi.org/10.1002/sdr.1761
+
+Hill, C., Corbett, C., \& St. Rose, A. (2010). Why so few? Women in science, technology, engineering, and mathematics. American Association of University Women.
+
+Kojima, T., Gu, S.S., Reid, M., Matsuo, Y., Iwasawa, Y.: Large language models are zero-shot reasoners. In: Annual Conference on Neural Information Processing Systems 2022, NeurIPS 2022, New Orleans, LA, USA, November 28 - December 9, 2022 (2022)
+
+Li, Y., Shao, X., Zhang, J., Wang, H., Brunswic, L. M., Zhou, K., Dong, J., Guo, K., Li, X., Chen, Z., Wang., J \& Hao, J. (2025). Generative Models in Decision Making: A Survey. arXiv preprint arXiv:2502.17100.
+
+Lu, Y., Aleta, A., Du, C., Shi, L., \& Moreno, Y. (2024). LLMs and generative agent-based models for complex systems research. Physics of Life Reviews. 283-293. https://doi.org/10.1016/j.plrev.2024.10.013
+
+Markle, R. S., Williams, T. M., Williams, K. S., deGravelles, K. H., Bagayoko, D., \& Warner, I. M. (2022). Supporting historically underrepresented groups in STEM higher education: The promise of structured mentoring networks. Frontiers in Education, 7, 674669. https://doi.org/10.3389/feduc.2022.674669
+
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G. S., \& Dean, J. (2013). Distributed representations of words and phrases and their compositionality. Advances in neural information processing systems, 1-9.
+
+Park, J. S., O'Brien, J., Cai, C. J., Morris, M. R., Liang, P., \& Bernstein, M. S. (2023, October). Generative agents: Interactive simulacra of human behavior. In Proceedings of the 36th annual ACM symposium on user interface software and technology (pp. 1-22).
+
+Park, J. S., Zou, C. Q., Shaw, A., Hill, B. M., Cai, C., Morris, M. R., Willer, R., Liang, P., \& Bernstein, M. S. (2024). Generative agent simulations of 1,000 people. arXiv preprint arXiv:2411.10109. 
+
+Rittmayer, A. D., \& Beier, M. E. (2008). Overview: Self-efficacy in STEM. SWE-AWE CASEE Overviews, 1(3), 1–12.
+
+Suh, J., Jahanparast, E., Moon, S., Kang, M., \& Chang, S. (2025). Language Model Fine-Tuning on Scaled Survey Data for Predicting Distributions of Public Opinions. arXiv preprint arXiv:2502.16761.
+
+Van Den Hurk, A., Meelissen, M., \& Van Langen, A. (2019). Interventions in education to prevent STEM pipeline leakage. International Journal of Science Education, 41(2), 150–164. https://doi.org/10.1080/09500693.2018.1540897
+
+Vezhnevets, A. S., Agapiou, J. P., Aharon, A., Ziv, R., Matyas, J., Duéñez-Guzmán, E. A., \& Leibo, J. Z. (2023). Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia. arXiv preprint arXiv:2312.03664. 
+
+Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., ... \& Wen, J. (2024). A survey on large language model-based autonomous agents. Frontiers of Computer Science, 18(6), 186345. https://doi.org/10.1007/s11704-024-40231-1
+
+Xu, S., Zhang, X., \& Qin, L. (2024). EduAgent: Generative student agents in learning. arXiv preprint arXiv:2404.07963. 
+
+\end{hangparas}
+
+\end{document}
