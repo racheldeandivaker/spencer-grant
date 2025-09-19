@@ -81,3 +81,16 @@ graph TD
    - **Handling:** [How to handle]
    - **User Impact:** [What user sees]
 
+## Testing Strategy
+
+### Unit Testing
+- [Unit testing approach]
+- [Key components to test]
+
+### Integration Testing
+- [Integration testing approach]
+- [Key flows to test]
+
+### End-to-End Testing
+- [E2E testing approach]
+- [User scenarios to test]
