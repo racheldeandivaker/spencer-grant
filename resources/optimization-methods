@@ -411,4 +411,3 @@ The **map** is its evolving belief about which recipes look best.
 * You **respect constraints** at every step (so the final pick is usable in the real world).
 * You **confirm** the winner with extra runs before you publish.
 
-If you want, I can turn this into a one‑page checklist you can follow while you implement—no formulas, just steps to tick off.
