@@ -2,7 +2,7 @@
 
 ## Progress Tracker
 - **Total Tasks:** 20
-- **Completed:** 3/20 
+- **Completed:** 4/20 
 - **Current Phase:** Implementation
 
 ---
@@ -38,7 +38,7 @@
   - _Requirements: 2.1, 2.2, 2.3_
   - _Prompt: Implement the task for spec spencer-narrative-discussion, first run spec-workflow-guide to get the workflow guide then implement the task: Role: Education Research Specialist focusing on equity and STEM access | Task: Write significance section (1-1.25 pages) establishing educational importance and equity implications following requirements 2.1-2.3 | Restrictions: Must clearly connect to education practice/policy, avoid overstating claims, maintain evidence-based arguments | _Leverage: Extract STEM equity arguments from resources/overview-dissertation | _Requirements: 2.1 (educational importance), 2.2 (equity implications), 2.3 (scope and populations) | Success: Clear articulation of educational significance, strong equity case, appropriate page length, evidence-based claims_
 
-- [ ] **Task 4: Write theoretical framework section (0.75 pages)**
+- [x] **Task 4: Write theoretical framework section (0.75 pages)** ✅ COMPLETED
   - File: narrative-sections/04-theoretical-framework.md
   - Specify Social Cognitive Career Theory and outcome expectations framework
   - Connect theory to constructs and hypotheses clearly
